@@ -1,8 +1,9 @@
 // Iteration 1: Names and Input
 
-string hacker1,hacker2;
-console.log("The driver's name is XXXX");
-console.log("The navigator's name is YYYY");
+let hacker1="Ravi";
+let hacker2="John";
+console.log("The driver's name is ${hacker1}");
+console.log("The navigator's name is ${hacker2}");
 // Iteration 2: Conditionals
 
 if(hacker1.length > hacker2.length) {
@@ -16,3 +17,4 @@ else{
 }
 
 // Iteration 3: Loops
+console.log(hacker1.toUpperCase());
